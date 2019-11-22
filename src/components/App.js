@@ -1,6 +1,13 @@
 import React from 'react';
+import Header from './Header';
+import Main from './Main';
+import styles from './App.css';
 
 export default function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <section className={styles.App}>
+      <Header />
+      <Main />
+    </section>
+  );
 }
-  
