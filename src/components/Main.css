@@ -2,8 +2,26 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 40%;
+    bottom: 45vh;
+    left: 4vw;
+    right: 40vw;
+    position: absolute;
 
-    div {
-        height: 400px;
+    h1 {
+        font-size: 70pt;
+        font-family: minion-pro, serif;
+        font-weight: 700;
+        margin: 0;
+        letter-spacing: 0.0625em;
     }
+
+    p {
+        font-family: minion-pro, serif;
+        font-weight: 700;
+        font-size: 20pt;
+        margin: 0;
+    }
+
+
 }
