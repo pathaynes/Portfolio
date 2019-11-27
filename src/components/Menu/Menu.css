@@ -1,0 +1,30 @@
+.Menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: lightsalmon;
+  padding: 2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 50vh;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 1em;
+
+  a {
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: 2rem 0;
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: color 0.3s linear;
+  }
+
+  a:hover {
+    color: yellowgreen;
+    cursor: pointer;
+  }
+
+}
