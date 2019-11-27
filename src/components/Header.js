@@ -10,6 +10,9 @@ const Header = () => (
       <a>PROJECTS</a>
       <a>CONTACT</a>
     </nav>
+    <div className="menu-toggle">
+      <div className="hamburger"></div>
+    </div>
   </header>
 );
 

@@ -1,26 +1,51 @@
 .Main {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    text-align: center;
     width: 40%;
-    bottom: 45vh;
+    bottom: 40vh;
     left: 4vw;
     right: 40vw;
     position: absolute;
 
-    h1 {
-        font-size: 70pt;
-        font-family: minion-pro, serif;
-        font-weight: 700;
-        margin: 0;
-        letter-spacing: 0.0625em;
+    .Container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        left: 6vw;
+
+        h1 {
+            font-size: 90pt;
+            font-family: minion-pro, serif;
+            font-weight: 700;
+            margin: 0;
+            letter-spacing: 0.065em;
+        }
+
+        span {
+           display: inline-block;
+           transition: all .8s cubic-bezier(0.120, 0.885, 0.32, 1.875);
+        }
+
+        span:hover {
+           color: yellowgreen;
+           transform: translateY(-.15em);
+           cursor: pointer;
+        }
     }
 
     p {
+        display: inline-block;
         font-family: minion-pro, serif;
         font-weight: 700;
         font-size: 20pt;
         margin: 0;
+        transition: all .8s cubic-bezier(0.120, 0.885, 0.32, 1.875);
+    }
+
+    p:hover {
+        color:yellowgreen;
+        transform: translateY(-.15em);
+        cursor: pointer;
     }
 
 
