@@ -20,6 +20,7 @@
     color: whitesmoke;
     text-decoration: none;
     transition: color 0.3s linear;
+    border-bottom: 1px solid #575766
   }
 
   a:hover {
