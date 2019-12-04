@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: lightgreen;
+  background-color: rgba(19, 28, 49);
   padding: 2rem;
   position: absolute;
   top: 0;
@@ -19,7 +19,7 @@
     padding:  0;
     font-weight: bold;
     letter-spacing: 0.5rem;
-    color: black;
+    color: white;
     text-decoration: none;
     transition: color 0.3s linear;
   }
@@ -43,5 +43,9 @@
   a:hover {
     color: yellowgreen;
   }
+  
+}
 
+.closed {
+  transform: translateX(-100%);
 }

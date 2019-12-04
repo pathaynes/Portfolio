@@ -12,19 +12,36 @@
   cursor: pointer;
   padding: 0;
   z-index: 10;
-  
+
   &:focus {
     outline: none;
+  }
+
+  button {
+    background-color: rgba(0, 0, 255, 0);
+    width: 8em;
+    height: 20em;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none; 
   }
   
   div {
     width: 4rem;
     height: 0.25rem;
-    background: white;
+    background: black;
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;
     transform-origin: 1px;
+    margin: 5px;
   }
-
+  
+  .down {
+     color: white;
+  }
+  
 }
+
+

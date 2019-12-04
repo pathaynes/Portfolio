@@ -3,20 +3,20 @@ body {
 }
 
 .Background {
-        background: url(../assets/headshot.jpg) no-repeat center center fixed; 
+        background: url(../assets/backgroundDesign.png) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;
+        background-size: 70%;
         height: 100vh;
         width: 100vw;
 
     .Main {
         text-align: center;
         width: 40%;
-        bottom: 25vh;
-        left: 11vw;
-        right: 40vw;
+        bottom: 43vh;
+        left: 30vw;
+        right: 50vw;
         position: absolute;
     
         .Container {
@@ -27,7 +27,7 @@ body {
             left: 6vw;
     
             h1 {
-                font-size: 6vw;
+                font-size: 5vw;
                 font-family: minion-pro, serif;
                 font-weight: 700;
                 margin: 0;
@@ -50,7 +50,7 @@ body {
             display: inline-block;
             font-family: minion-pro, serif;
             font-weight: 700;
-            font-size: 2vw;
+            font-size: 1vw;
             margin: 0;
             transition: all .8s cubic-bezier(0.120, 0.885, 0.32, 1.875);
         }
