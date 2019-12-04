@@ -3,11 +3,11 @@ body {
 }
 
 .Background {
-        background: url(../assets/backgroundDesign.png) no-repeat center center fixed; 
+        background: url(../assets/mountains.png) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: 70%;
+        background-size: 100%;
         height: 100vh;
         width: 100vw;
 
@@ -25,13 +25,14 @@ body {
             justify-content: center;
             width: 100%;
             left: 6vw;
-    
+
             h1 {
-                font-size: 5vw;
+                font-size: 6vw;
                 font-family: minion-pro, serif;
                 font-weight: 700;
                 margin: 0;
                 letter-spacing: 0.065em;
+                text-shadow: 6px 7px rgba(0, 0, 0, 0.227);
             }
     
             span {
@@ -52,6 +53,7 @@ body {
             font-weight: 700;
             font-size: 1vw;
             margin: 0;
+            text-shadow: 8px 6px rgba(0, 0, 0, 0.227);
             transition: all .8s cubic-bezier(0.120, 0.885, 0.32, 1.875);
         }
     

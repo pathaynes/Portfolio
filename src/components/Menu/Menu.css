@@ -5,9 +5,9 @@
   background-color: rgba(19, 28, 49);
   padding: 2rem;
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 58vh;
+  top: 18%;
+  left: 15%;
+  bottom: 40vh;
   transition: transform 0.3s ease-in-out;
   border-radius: .3em;
   margin: 0;
@@ -47,5 +47,5 @@
 }
 
 .closed {
-  transform: translateX(-100%);
+  transform: translateX(-300%);
 }
