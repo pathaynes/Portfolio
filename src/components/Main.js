@@ -3,9 +3,9 @@ import styles from './Main.css';
 
 const Main = () => (
   <>
-    <div className={styles.Background}>
-      <div className={styles.Main}>
-        <div className={styles.Container}>
+    <div className={styles.Background} >
+      <div className={styles.Main} data-aos="zoom-in">
+        <div className={styles.Container} >
           <h1>
             <span>p</span>
             <span>a</span>
@@ -20,7 +20,6 @@ const Main = () => (
             <span>s</span>
           </h1>
         </div>
-        <p>SOFTWARE DEVELOPER</p>
       </div>
     </div>
   </>

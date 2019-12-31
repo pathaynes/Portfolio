@@ -6,17 +6,14 @@ import PropTypes from 'prop-types';
 const Menu = ({ open }) => {
 
   return (
-
-    <ul className={`${styles.Menu} ${styles.dropMenu} ${open ? styles.open : styles.closed} `}>
+    <ul className={`${styles.Menu} ${open ? styles.open : styles.closed} `}>
       <li><Link to='/'>HOME</Link></li>
       <li><Link to='/about'>ABOUT</Link></li>
       <li><Link to='/projects'>PROJECTS</Link></li>
       <li><Link to='/contact'>CONTACT</Link></li>
     </ul>
-
   );
 };
-
 
 Menu.propTypes = {
   open: PropTypes.bool.isRequired

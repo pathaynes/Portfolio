@@ -1,17 +1,19 @@
 .Menu {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  background-color: rgba(19, 28, 49);
+  background-color: rgba(19, 28, 49, 0.495);
   padding: 2rem;
-  position: absolute;
-  top: 18%;
-  left: 15%;
-  bottom: 40vh;
+  position: fixed;
+  height: 17%;
+  top: 0%;
+  bottom: 38%;
   transition: transform 0.3s ease-in-out;
   border-radius: .3em;
   margin: 0;
   padding: 0;
+  box-shadow: 1px 8px 40px black;
+
 
   a {
     font-size: 2rem;
@@ -21,31 +23,30 @@
     letter-spacing: 0.5rem;
     color: white;
     text-decoration: none;
-    transition: color 0.3s linear;
+    transition: color 0.199s linear;
   }
 
   li {
     list-style: none;
     margin: 0px;
+    margin-top: 25px;
     padding: 20px;
     border-radius: .3em;
-  }
-  
-  li:first-child {
-    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
   }
   
   li:hover {
-    background-color: darkolivegreen;
     cursor: pointer;
   }
 
   a:hover {
     color: yellowgreen;
   }
-  
 }
 
 .closed {
-  transform: translateX(-300%);
+  transform: translateY(-100%);
 }

@@ -3,9 +3,9 @@ import styles from './About.css';
 
 const About = () => (
   <>
-    <section className={styles.About}>
+    <div className={styles.About}>
       <p>Here is where I talk about myself!</p>
-    </section>
+    </div>
   </>
 );
 
