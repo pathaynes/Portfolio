@@ -1,15 +1,30 @@
 .About {
+  display: flex;
+  flex-direction: row;
   text-align: center;
   position: absolute;
   margin: 0;
   height: 50vh;
-  width: 50vw;
-  top: 50%;
-  left: 25%;
+  width: 70vw;
+  top: 20%;
+  left: 20%;
+  z-index: -1;
+
+  img {
+    width: 300px;
+    border-radius: 200px;
+  }
 
   p {
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 500px;
+    height: 400px;
+    margin-right: 100px;
+    margin-top: 0;
+    margin-bottom: 40px;
     color: white;
-    font-size: 20pt;
+    font-size: 14pt;
   }
 }
