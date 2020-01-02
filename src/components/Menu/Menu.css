@@ -13,7 +13,7 @@
   margin: 0;
   padding: 0;
   box-shadow: 1px 8px 40px black;
-
+  z-index: 1;
 
   a {
     font-size: 2rem;
