@@ -7,10 +7,10 @@ import {
 import Main from './Main';
 import BurgerMenu from '../containers/BurgerMenu';
 import About from './About/About';
-import Projects from './Projects/Projects';
 import Contact from './Contact/Contact';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Photography from './Photography/Photography';
 
 export default function App() {
 
@@ -27,7 +27,7 @@ export default function App() {
       <Switch>
         <Route exact path="/" component={Main} />
         <Route path="/about" component={About} />
-        <Route path="/projects" component={Projects} />
+        <Route path="/photography" component={Photography} />
         <Route path="/contact" component={Contact} />
       </Switch>
     </Router>

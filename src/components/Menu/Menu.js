@@ -9,7 +9,7 @@ const Menu = ({ open }) => {
     <ul className={`${styles.Menu} ${open ? styles.open : styles.closed} `}>
       <li><Link to='/'>HOME</Link></li>
       <li><Link to='/about'>ABOUT</Link></li>
-      <li><Link to='/projects'>PROJECTS</Link></li>
+      <li><Link to='/photography'>PHOTOGRAPHY</Link></li>
       <li><Link to='/contact'>CONTACT</Link></li>
     </ul>
   );
