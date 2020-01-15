@@ -6,7 +6,7 @@ import canada from '../../assets/Canada.jpg';
 
 const Photography = () => (
   <>
-    <div className={styles.Photography}>
+    <div className={styles.Photography} data-aos="zoom-in">
 
       <div className={styles.mySlides}>
         <div className={styles.numberText}>1 / 3</div>
