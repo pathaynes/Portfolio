@@ -1,13 +1,41 @@
 import React from 'react';
 import styles from './About.css';
-import Pat from '../../assets/Pat.jpg';
+import Pat from '../../assets/Pat.png';
 
 const About = () => (
   <>
     <div className={styles.About} >
-      <img src={Pat} data-aos="zoom-in"></img>
-      <p data-aos="zoom-out">Full stack software developer with a passion for coding. Creative at heart, lover of people, I am here on this planet to bring smiles to everyone I encounter. From 2012 to 2018 I helped build a successful brewery from the ground up. In five years we went from concept to receiving entrepreneur of the year in 2017 from the WA business association. My business experience from hands on work and my ability to see the larger picture with projects makes me a teammate worth working with. Since leaving Aslan Brewing Company in the beginning of 2018 I have focused my energy towards digital content and marketing, building a portfolio of photography, graphic design and JavaScript. I am a software developer with a focus in UX and front-end design. </p>
-      
+      <div className={styles.HeadShot} data-aos="zoom-in">
+        <img src={Pat}></img>
+        <div className={styles.Employment}>
+          <p> employment status:</p><p> LOOKING FOR WORK</p>
+        </div>
+      </div>
+      <div className={styles.Stats}>
+        <div className={styles.Intro}>
+          <p>PORTLAND BASED</p>
+          <p>SOFTWARE DEVELOPER</p>
+          <p>GRAPHIC DESIGNER -- PHOTOGRAPHER</p>
+          <p>DOG DAD</p>
+          <p>OUTDOOR ENTHUSIAST</p>
+        </div>
+        <div className={styles.TechStack}>
+          <p>tech mountain</p>
+          <section className={styles.Graph}>
+            <div><p>Javascript</p><p>85%</p></div>
+            <div><p>HTML</p><p>85%</p></div>
+            <div><p>CSS</p><p>85%</p></div>
+            <div><p>React</p><p>85%</p></div>
+            <div><p>Redux</p><p>85%</p></div>
+            <div><p>Jest</p><p>85%</p></div>
+            <div><p>QUnit</p><p>85%</p></div>
+            <div><p>Node.js</p><p>85%</p></div>
+            <div><p>Express</p><p>85%</p></div>
+            <div><p>Illustrator</p><p>85%</p></div>
+            <div><p>Photoshop</p><p>85%</p></div>
+          </section>
+        </div>
+      </div>
     </div>
   </>
 );
