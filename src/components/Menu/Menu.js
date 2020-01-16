@@ -7,10 +7,12 @@ const Menu = ({ open }) => {
 
   return (
     <ul className={`${styles.Menu} ${open ? styles.open : styles.closed} `}>
-      <li><Link to='/'>HOME</Link></li>
-      <li><Link to='/about'>ABOUT</Link></li>
-      <li><Link to='/photography'>PHOTOGRAPHY</Link></li>
-      <li><Link to='/contact'>CONTACT</Link></li>
+      <div className={styles.Links}>
+        <li><Link to='/'>HOME</Link></li>
+        <li><Link to='/about'>who</Link></li>
+        <li><Link to='/photography'>what</Link></li>
+        <li><Link to='/contact'>how</Link></li>
+      </div>
     </ul>
   );
 };

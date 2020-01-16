@@ -36,8 +36,9 @@ body {
             h1 {
                 font-size: 5vw;
                 color: rgb(41, 152, 100);
-                font-family: minion-pro, serif;
-                font-weight: 700;
+                font-family: myriad-pro, sans-serif;
+                font-style: normal;
+                font-weight: lighter;
                 margin: 0;
                 letter-spacing: 0.065em;
                 text-shadow: 6px 7px rgba(0, 0, 0, 0.523);
@@ -58,8 +59,6 @@ body {
         p {
             display: inline-block;
             color: white;
-            font-family: minion-pro, serif;
-            font-weight: 700;
             font-size: 1vw;
             margin: 0;
             text-shadow: 8px 6px rgba(0, 0, 0, 0.227);
