@@ -111,6 +111,32 @@
         }
       }
     }
+
+    .Numbers {
+      position: absolute;
+      height: 91.7%;
+      width: 80%;
+      top: 8.3%;
+      right: 1%;
+      font-family: myriad-pro, sans-serif;
+      font-style: normal;
+      font-weight: lighter;
+
+      div {
+        width: 50px;
+        height: 3vh;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 2.5%;
+        transition: width 2s;
+      }
+
+      div:hover {
+        background-color: green;
+        cursor: pointer;
+        width: 200px;
+      }
+    }
   }
 }
 

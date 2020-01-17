@@ -34,6 +34,19 @@ const About = () => (
             <div><p>Illustrator</p><p>85%</p></div>
             <div><p>Photoshop</p><p>85%</p></div>
           </section>
+          <section className={styles.Numbers}>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </section>
         </div>
       </div>
     </div>
