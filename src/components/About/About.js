@@ -19,7 +19,7 @@ const About = () => (
           <p>DOG DAD</p>
           <p>OUTDOOR ENTHUSIAST</p>
         </div>
-        <div className={styles.TechStack}>
+        <div className={styles.TechStack} data-aos="zoom-out">
           <p>tech mountain</p>
           <section className={styles.Graph}>
             <div><p>Javascript</p><p>85%</p></div>
@@ -34,7 +34,7 @@ const About = () => (
             <div><p>Illustrator</p><p>85%</p></div>
             <div><p>Photoshop</p><p>85%</p></div>
           </section>
-          <section className={styles.Numbers}>
+          <section className={styles.Numbers} >
             <div></div>
             <div></div>
             <div></div>
