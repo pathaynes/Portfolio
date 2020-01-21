@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import styles from './About.css';
 import Pat from '../../assets/Pat.png';
 
@@ -35,6 +37,9 @@ const About = () => (
             <div className={styles.Photoshop}><p>Photoshop</p><div></div><div><p>90%</p></div></div>
           </section>
         </div>
+        <ul className={styles.Social}>
+          <li><a href='http://www.linkedin.com/in/pat-haynes/' target='blank'><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+        </ul>
       </div>
     </div>
   </>
