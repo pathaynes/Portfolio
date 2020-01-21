@@ -10,6 +10,7 @@ import About from './About/About';
 import Contact from './Contact/Contact';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Photography from './Photography/Photography';
 
 export default function App() {

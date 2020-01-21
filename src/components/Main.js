@@ -1,9 +1,11 @@
 import React from 'react';
+import SnowStorm from 'react-snowstorm';
 import styles from './Main.css';
 
 const Main = () => (
   <>
     <div className={styles.Background} >
+      <SnowStorm />
       <div className={styles.Main} data-aos="zoom-in">
         <div className={styles.Container} >
           <h1>
