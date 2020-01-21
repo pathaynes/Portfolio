@@ -552,21 +552,28 @@
     position: absolute;
     bottom: 0;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
     height: 10%;
     width: 80%;
-    border: solid white;
-
-    ul {
+    text-decoration: none;
 
      li {
-     
-       a {
-         width: 1000px;
+      font-size: 30pt;
+      list-style-type: none;
+
+      a {
+        color: white;
+      }
+       
+       a:hover {
+         color: green;
+         cursor: pointer;
        }
      }
-    }
+    
 
 
   }
