@@ -1,41 +1,71 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Carousel from 'react-bootstrap/Carousel';
 import styles from './Photography.css';
 import kyle from '../../assets/kyle.jpg';
 import jennica from '../../assets/Jennica.jpg';
 import canada from '../../assets/Canada.jpg';
 
-const Photography = () => (
-  <>
-    <div className={styles.Photography} data-aos="zoom-in">
+const Photography = () => {
 
-      <div className={styles.mySlides}>
-        <div className={styles.numberText}>1 / 3</div>
-        <img src={kyle} />
-        <div className={styles.text}>Caption Text</div>
-      </div>
+  const [index, setIndex] = useState(0);
+  const [direction, setDirection] = useState(null);
 
-      <div className={styles.mySlides}>
-        <div className={styles.numberText}>2 / 3</div>
-        <img src={jennica}  />
-        <div className={styles.text}>Caption Two</div>
-      </div>
+  const handleSelect = (selectedIndex, e) => {
+    setIndex(selectedIndex);
+    setDirection(e.direction);
+  };
 
-      <div className={styles.mySlides}>
-        <div className={styles.numberText}>3 / 3</div>
-        <img src={canada} />
-        <div className={styles.text}>Caption Three</div>
-      </div>
+  return (
+    <>
+      <style type="text/css">
+        {`
+    .d-block w-100 {
+      width: 30px;
+      height: 20px;
+    }
+    `}
+      </style>
 
-      <a className={styles.prev} >&#10094;</a>
-      <a className={styles.next} >&#10095;</a>
-    </div>
+      <Carousel data-aos="zoom-in" activeIndex={index} direction={direction} onSelect={handleSelect} className={styles.Photography}>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={canada}
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h3>First slide label</h3>
+            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={kyle}
+            alt="Third slide"
+          />
 
-    {/* <div>
-      <span className={styles.dot} onClick={currentSlide(1)}></span>
-      <span className={styles.dot} onClick={currentSlide(2)}></span>
-      <span className={styles.dot} onClick={currentSlide(3)}></span>
-    </div> */}
-  </>
-);
+          <Carousel.Caption>
+            <h3>Second slide label</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={jennica}
+            alt="Third slide"
+          />
+
+          <Carousel.Caption>
+            <h3>Third slide label</h3>
+            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+
+    </>
+  );
+};
 
 export default Photography;

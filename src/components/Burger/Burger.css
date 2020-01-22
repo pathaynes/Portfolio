@@ -1,6 +1,6 @@
 .Burger {
   position: fixed;
-  top: 2%;
+  top: 4%;
   right: 10%;
   display: flex;
   flex-direction: column;
@@ -20,10 +20,11 @@
   button {
     background-color: rgba(0, 0, 255, 0);
     width: 8em;
+    display: block;
     height: 20em;
     padding: 0;
     margin: 0;
-    outline: none;
+    outline: none !important;
     border: none; 
   }
   
