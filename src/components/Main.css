@@ -77,13 +77,16 @@ body {
 
 
 .Background {
+    height: 100vh;
+    width: 100vw;
        
     .Main {
         background: url(../assets/mountains.png) no-repeat center center; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: 30%;
+        background-size: 65%;
+        margin-top: 100px;
         height: 100vh;
         width: 100vw;
         position: relative;
@@ -95,17 +98,16 @@ body {
             flex-direction: row;
             text-align: center;
             width: 40%;
-            bottom: 15vh;
-            left: 38vw;
-            right: 50vw;
+            bottom: 35vh;
+            left: 42vw;
             position: absolute;
 
             h1 {
                 font-size: 5vw;
-                color: rgb(41, 152, 100);
-                font-family: myriad-pro, sans-serif;
+                color: white;
+                font-family: adorn-smooth-condensed-sans, sans-serif;
+                font-weight: 400;
                 font-style: normal;
-                font-weight: lighter;
                 margin: 0;
                 letter-spacing: 0.065em;
                 text-shadow: 6px 7px rgba(0, 0, 0, 0.523);
