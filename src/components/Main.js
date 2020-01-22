@@ -7,7 +7,7 @@ const Main = () => (
     <div className={styles.Background} >
       <SnowStorm />
       <div className={styles.Main} data-aos="zoom-in">
-        {/* <div className={styles.Container} >
+        <div className={styles.Container} >
           <h1>
             <span>p</span>
             <span>a</span>
@@ -21,7 +21,7 @@ const Main = () => (
             <span>e</span>
             <span>s</span>
           </h1>
-        </div> */}
+        </div>
       </div>
     </div>
   </>
