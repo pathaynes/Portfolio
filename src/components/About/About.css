@@ -14,35 +14,38 @@
 
   img {
     position: relative;
-    top: 20%;
-    width: 80%;
-  }
-
-  .Employment {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin: 0;
-    position: absolute;
-    bottom: 18%;
+    top: 10%;
     width: 100%;
-
-    p {
-     font-size: 20pt;
-     font-family: myriad-pro, sans-serif;
-     font-style: normal;
-     font-weight: lighter;
-    }
-
-    p:nth-child(1) {
-      color: #2E7044;
-    }
-
-    p:nth-child(2) {
-      color: white;
-      margin-left: 3%;
-    }
   }
+
+  .Social {
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 10%;
+    width: 90%;
+    text-decoration: none;
+
+     li {
+      font-size: 40pt;
+      list-style-type: none;
+
+      a {
+        color: white;
+      }
+       
+       a:hover {
+         color: green;
+         cursor: pointer;
+       }
+     }
+    
+  }
+
  }
 
  .Stats {
@@ -60,8 +63,9 @@
     margin-top: 15%;
     height: 20%;
     width: 80%;
-    font-family: myriad-pro, sans-serif;
-    font-weight: lighter;
+    font-family: adorn-smooth-condensed-sans, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
     p {
       color: white;
@@ -76,19 +80,22 @@
     position: absolute;
     bottom: 0;
     height: 70%;
-    width: 100%;
+    width: 90%;
     font-family: myriad-pro, sans-serif;
     font-style: normal;
     font-weight: lighter;
     
     p {
       margin: 0;
+      padding-left: 10%;
       color: white;
       font-size: 20pt;
     }
 
     .Graph {
-       height: 50%;
+       height: 90%;
+       width: 70%;
+       margin-left: 20%;
 
        .JavaScript {
           display: flex;
@@ -106,7 +113,7 @@
         p:nth-child(1) {
           padding-left: 2%;
           background-color: #29425B;
-          width: 10%;
+          width: 20%;
         }
 
         div:nth-child(2) {
@@ -150,7 +157,7 @@
         p:nth-child(1) {
           padding-left: 2%;
           background-color: #29425B;
-          width: 10%;
+          width: 20%;
         }
 
         div:nth-child(2) {
@@ -196,7 +203,7 @@
         p:nth-child(1) {
           padding-left: 2%;
           background-color: #29425B;
-          width: 10%;
+          width: 20%;
         }
 
         div:nth-child(2) {
@@ -239,7 +246,7 @@
         p:nth-child(1) {
           padding-left: 2%;
           background-color: #29425B;
-          width: 10%;
+          width: 20%;
         }
 
         div:nth-child(2) {
@@ -281,7 +288,7 @@
         p:nth-child(1) {
           padding-left: 2%;
           background-color: #29425B;
-          width: 10%;
+          width: 20%;
         }
 
         div:nth-child(2) {
@@ -323,7 +330,7 @@
         p:nth-child(1) {
           padding-left: 2%;
           background-color: #29425B;
-          width: 10%;
+          width: 20%;
         }
 
         div:nth-child(2) {
@@ -355,7 +362,7 @@
         p:nth-child(1) {
           padding-left: 2%;
           background-color: #29425B;
-          width: 10%;
+          width: 20%;
         }
 
         div:nth-child(2) {
@@ -387,7 +394,7 @@
         p:nth-child(1) {
           padding-left: 2%;
           background-color: #29425B;
-          width: 10%;
+          width: 20%;
         }
 
         div:nth-child(2) {
@@ -429,7 +436,7 @@
         p:nth-child(1) {
           padding-left: 2%;
           background-color: #29425B;
-          width: 10%;
+          width: 20%;
         }
 
         div:nth-child(2) {
@@ -445,7 +452,7 @@
             display: flex;
             justify-content: center;
             align-items: flex-end;
-            width: 10%;
+            width: 20%;
             padding-left: 6.5%;
 
             p {
@@ -471,7 +478,7 @@
         p:nth-child(1) {
           padding-left: 2%;
           background-color: #29425B;
-          width: 10%;
+          width: 20%;
         }
 
         div:nth-child(2) {
@@ -515,7 +522,7 @@
         p:nth-child(1) {
           padding-left: 2%;
           background-color: #29425B;
-          width: 10%;
+          width: 20%;
         }
 
         div:nth-child(2) {
@@ -545,36 +552,6 @@
     }
 
    }
-
-  }
-
-  .Social {
-    position: absolute;
-    bottom: 10%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    height: 10%;
-    width: 80%;
-    text-decoration: none;
-
-     li {
-      font-size: 30pt;
-      list-style-type: none;
-
-      a {
-        color: white;
-      }
-       
-       a:hover {
-         color: green;
-         cursor: pointer;
-       }
-     }
-    
-
 
   }
  }
