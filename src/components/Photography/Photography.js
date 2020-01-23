@@ -16,17 +16,8 @@ const Photography = () => {
   };
 
   return (
-    <>
-      <style type="text/css">
-        {`
-    .d-block w-100 {
-      width: 30px;
-      height: 20px;
-    }
-    `}
-      </style>
-
-      <Carousel data-aos="zoom-in" activeIndex={index} direction={direction} onSelect={handleSelect} className={styles.Photography}>
+    < div className={styles.Photography}>
+      <Carousel data-aos="zoom-in" activeIndex={index} direction={direction} onSelect={handleSelect}>
         <Carousel.Item>
           <img
             className="d-block w-100"
@@ -63,8 +54,7 @@ const Photography = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-
-    </>
+    </div>
   );
 };
 
