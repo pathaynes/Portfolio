@@ -17,8 +17,8 @@ const Photography = () => {
 
   return (
     < div className={styles.Photography}>
-      <Carousel data-aos="zoom-in" activeIndex={index} direction={direction} onSelect={handleSelect}>
-        <Carousel.Item>
+      <Carousel data-aos="zoom-in" activeIndex={index} direction={direction} onSelect={handleSelect} className={styles.Carousel}>
+        <Carousel.Item className={styles.First}>
           <img
             className="d-block w-100"
             src={canada}
@@ -29,7 +29,7 @@ const Photography = () => {
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className={styles.Second}>
           <img
             className="d-block w-100"
             src={kyle}
@@ -41,7 +41,7 @@ const Photography = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className={styles.Third}>
           <img
             className="d-block w-100"
             src={jennica}
