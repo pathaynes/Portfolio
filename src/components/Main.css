@@ -4,9 +4,6 @@ body {
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: 100%;
-        height: 100vh;
-        width: 100vw;
 }
 
 @media (max-width: 2200px) {
@@ -77,40 +74,39 @@ body {
 
 
 .Background {
-    height: 100vh;
-    width: 100vw;
-       
+   
     .Main {
         background: url(../assets/mountains.png) no-repeat center center; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: 65%;
-        margin-top: 100px;
         height: 100vh;
-        width: 100vw;
         position: relative;
-        bottom: 10vh;
         transition: all .8s cubic-bezier(0.120, 0.885, 0.32, 1.875);
     
         .Container {
             display: flex;
             flex-direction: row;
-            text-align: center;
-            width: 40%;
+            justify-content: center;
+            width: 100%;
             bottom: 35vh;
-            left: 42vw;
             position: absolute;
 
             h1 {
+                padding-left: 8%;
                 font-size: 5vw;
                 color: white;
                 font-family: adorn-smooth-condensed-sans, sans-serif;
                 font-weight: 400;
                 font-style: normal;
                 margin: 0;
-                letter-spacing: 0.065em;
+                letter-spacing: .2em;
                 text-shadow: 6px 7px rgba(0, 0, 0, 0.523);
+            }
+
+            h1:nth-child(2) {
+                padding-left: 2%;
             }
     
             span {
