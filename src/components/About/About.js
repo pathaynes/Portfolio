@@ -5,7 +5,7 @@ import { faEnvelope, faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import styles from './About.css';
 import 'animate.css/animate.css';
-import Pat from '../../assets/Pat.png';
+import Pat from '../../assets/mountainFace.png';
 
 const About = () => (
   <>
