@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import styles from './Photography.css';
 import kyle from '../../assets/kyle.jpg';
-import jennica from '../../assets/Jennica.jpg';
+import jabbaDice from '../../assets/JABBA-DICE.png';
 import canada from '../../assets/Canada.jpg';
 
 const Photography = () => {
@@ -44,7 +44,7 @@ const Photography = () => {
         <Carousel.Item className={styles.Third}>
           <img
             className="d-block w-100"
-            src={jennica}
+            src={jabbaDice}
             alt="Third slide"
           />
 
