@@ -27,7 +27,7 @@ const Photography = () => {
           />
           <Carousel.Caption>
             <a href='https://crypto-trades-2020.netlify.com/login'><h3>Launch App</h3></a>
-            <p>Crypto currency trading app, built with React, Redux, Node.js, MongoDB</p>
+            <p>Full Stack application, Fantasy crypto currency trading app, built with React, Redux, Node.js, MongoDB</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className={styles.Second}>
@@ -39,7 +39,7 @@ const Photography = () => {
 
           <Carousel.Caption>
             <a href='https://github.com/Healing-HeartBot/healing-heart-bot'><h3>Launch App</h3></a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Twitter Bot back-end project.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className={styles.Third}>
@@ -51,7 +51,7 @@ const Photography = () => {
 
           <Carousel.Caption>
             <a href='https://team-jabba.github.io/html/coverpage.html'><h3>Launch App</h3></a>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <p>Vanilla JavaScript dice game, beat all the bosses to win!.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className={styles.Fourth}>
@@ -63,7 +63,7 @@ const Photography = () => {
 
           <Carousel.Caption>
             <a href='https://chroma-game.herokuapp.com/index.html?redirect=%2F'><h3>Launch App</h3></a>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <p>Full-Stack Vanilla JavaScript color matching game to relax you when stressed.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
