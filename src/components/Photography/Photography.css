@@ -5,19 +5,25 @@
     width: 100%;
 
     .First {
-      width: 75%;
-      left: 13%;
+      width: 83%;
+      left: 8.5%;
     }
 
     .Second {
-      width: 87%;
-      left: 7%;
+      width: 92%;
+      left: 4%;
     }
 
     .Third {
-      width: 85%;
-      top: 10%;
-      left: 7.5%;
+      width: 83%;
+      top: 8.5%;
+      left: 8.5%;
+    }
+
+    .Fourth {
+      width: 84%;
+      top: 8.5%;
+      left: 8%;
     }
   }
 

@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import styles from './Photography.css';
-import kyle from '../../assets/kyle.jpg';
-import jennica from '../../assets/Jennica.jpg';
-import canada from '../../assets/Canada.jpg';
+import heartbot from '../../assets/heartbot.png';
+import jabbaDice from '../../assets/JABBA-DICE.png';
+import CryptoTrades from '../../assets/CryptoTrades.png';
+import chroma from '../../assets/CHROMA.png';
 
 const Photography = () => {
 
@@ -21,36 +22,48 @@ const Photography = () => {
         <Carousel.Item className={styles.First}>
           <img
             className="d-block w-100"
-            src={canada}
+            src={CryptoTrades}
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <a href='https://crypto-trades-2020.netlify.com/login'><h3>Launch App</h3></a>
+            <p>Full Stack application, Fantasy crypto currency trading app, built with React, Redux, Node.js, MongoDB</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className={styles.Second}>
           <img
             className="d-block w-100"
-            src={kyle}
+            src={heartbot}
             alt="Third slide"
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href='https://github.com/Healing-HeartBot/healing-heart-bot'><h3>Launch App</h3></a>
+            <p>Twitter Bot back-end project.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item className={styles.Third}>
           <img
             className="d-block w-100"
-            src={jennica}
+            src={jabbaDice}
             alt="Third slide"
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <a href='https://team-jabba.github.io/html/coverpage.html'><h3>Launch App</h3></a>
+            <p>Vanilla JavaScript dice game, beat all the bosses to win!.</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item className={styles.Fourth}>
+          <img
+            className="d-block w-100"
+            src={chroma}
+            alt="Third slide"
+          />
+
+          <Carousel.Caption>
+            <a href='https://chroma-game.herokuapp.com/index.html?redirect=%2F'><h3>Launch App</h3></a>
+            <p>Full-Stack Vanilla JavaScript color matching game to relax you when stressed.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
