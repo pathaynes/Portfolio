@@ -26,7 +26,7 @@ const Photography = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <a href='https://crypto-trades-2020.netlify.com/login'><h3>Click Here</h3></a>
+            <a href='https://crypto-trades-2020.netlify.com/login'><h3>Launch App</h3></a>
             <p>Crypto currency trading app, built with React, Redux, Node.js, MongoDB</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -38,7 +38,7 @@ const Photography = () => {
           />
 
           <Carousel.Caption>
-            <h3>Second slide label</h3>
+            <a href='https://github.com/Healing-HeartBot/healing-heart-bot'><h3>Launch App</h3></a>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -50,7 +50,7 @@ const Photography = () => {
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <a href='https://team-jabba.github.io/html/coverpage.html'><h3>Launch App</h3></a>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
           </Carousel.Caption>
         </Carousel.Item>
@@ -62,7 +62,7 @@ const Photography = () => {
           />
 
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <a href='https://chroma-game.herokuapp.com/index.html?redirect=%2F'><h3>Launch App</h3></a>
             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
           </Carousel.Caption>
         </Carousel.Item>
