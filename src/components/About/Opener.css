@@ -518,3 +518,12 @@ flex-wrap: wrap;
 
 }
 
+@media (max-width: 1500px) {
+  .Opener {
+
+    h1 {
+      font-size: 15pt !important;
+    }
+  }
+}
+
