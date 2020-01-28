@@ -36,6 +36,11 @@
     
   }
 
+  a:active {
+    text-decoration: underline;
+    color: yellowgreen;
+  }
+
   li {
     list-style: none;
     margin: 0px;

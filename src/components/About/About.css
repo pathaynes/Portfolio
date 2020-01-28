@@ -1,4 +1,8 @@
 .About {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  position: relative;
 
   .HeadShot {
   display: flex;
@@ -114,3 +118,4 @@
 
   }
  }
+
