@@ -17,8 +17,8 @@ const Bio = () => {
       <h1 className="animated flipInX">creating</h1>
       <h1 className="animated flipInX">digital</h1>
       <h1 className="animated flipInX">art.</h1>
-      <h1 className="animated flipInX">I</h1>
-      <h1 className="animated flipInX">am</h1>
+      <h1 className="animated bounceInDown">I</h1>
+      <h1 className="animated bounceInDown">am</h1>
       <h1 className="animated flipInX">here</h1>
       <h1 className="animated flipInX">on</h1>
       <h1 className="animated flipInX">this</h1>
@@ -53,7 +53,7 @@ const Bio = () => {
       <h1 className="animated flipInX">concept</h1>
       <h1 className="animated flipInX">to</h1>
       <h1 className="animated flipInX">receiving</h1>
-      <h1 className="animated flipInX">entrepreneur</h1>
+      <h1 className="animated bounceInDown">entrepreneur</h1>
       <h1 className="animated flipInX">of</h1>
       <h1 className="animated flipInX">the</h1>
       <h1 className="animated flipInX">year</h1>
@@ -84,7 +84,7 @@ const Bio = () => {
       <h1 className="animated flipInX">makes</h1>
       <h1 className="animated flipInX">me</h1>
       <h1 className="animated flipInX">a</h1>
-      <h1 className="animated flipInX">teammate</h1>
+      <h1 className="animated bounceInDown">teammate</h1>
       <h1 className="animated flipInX">worth</h1>
       <h1 className="animated flipInX">working</h1>
       <h1 className="animated flipInX">with.</h1>
@@ -100,7 +100,7 @@ const Bio = () => {
       <h1 className="animated flipInX">2018</h1>
       <h1 className="animated flipInX">I</h1>
       <h1 className="animated flipInX">have</h1>
-      <h1 className="animated flipInX">focused</h1>
+      <h1 className="animated bounceInDown">focused</h1>
       <h1 className="animated flipInX">my</h1>
       <h1 className="animated flipInX">energy</h1>
       <h1 className="animated flipInX">towards</h1>
@@ -120,8 +120,8 @@ const Bio = () => {
       <h1 className="animated flipInX">I</h1>
       <h1 className="animated flipInX">am</h1>
       <h1 className="animated flipInX">a</h1>
-      <h1 className="animated flipInX">software</h1>
-      <h1 className="animated flipInX">developer</h1>
+      <h1 className="animated bounceInDown">software</h1>
+      <h1 className="animated bounceInDown">developer</h1>
       <h1 className="animated flipInX">with</h1>
       <h1 className="animated flipInX">a</h1>
       <h1 className="animated flipInX">focus</h1>
