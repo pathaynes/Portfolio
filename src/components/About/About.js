@@ -1,5 +1,6 @@
 import React from 'react';
 import Bio from './Bio';
+import TechStack from './TechStack';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faFileAlt } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedinIn, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
@@ -34,6 +35,7 @@ const About = () => (
             </div>
           </div>
           <Bio />
+          <TechStack />
         </div>
       </div>
     </div>

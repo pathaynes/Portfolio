@@ -25,7 +25,7 @@ const Photography = () => {
             src={CryptoTrades}
             alt="First slide"
           />
-          <Carousel.Caption className={styles.FirstCaption}>
+          <Carousel.Caption>
             <a href='https://crypto-trades-2020.netlify.com/login' target='blank' rel="noopener noreferrer"><h3>Launch</h3></a>
             <p>Full Stack application, Fantasy crypto currency trading app, built with React, Redux, Node.js, MongoDB</p>
           </Carousel.Caption>
