@@ -1,5 +1,5 @@
 .Photography {
-  
+  margin-top: 30px;
 
   .Carousel {
     width: 100%;
@@ -27,4 +27,26 @@
     }
   }
 
+}
+
+@media (max-width: 600px) {
+  .Photography {
+
+    .Carousel {
+      height: 100vh;
+      .First,
+      .Second,
+      .Third,
+      .Fourth {
+        top: 0;
+        left: 0;
+        width: 100%;
+
+        img {
+          margin-top: 60%;
+          left: 0;
+        }
+      }
+    }
+  }
 }

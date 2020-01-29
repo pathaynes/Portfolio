@@ -68,7 +68,7 @@
       display: flex;
       justify-content: center;
       animation-duration: 1s;
-      animation-delay: 1s;
+      animation-delay: .5s;
 
       h1 {
         font-size: 70pt;
