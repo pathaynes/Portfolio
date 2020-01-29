@@ -69,6 +69,10 @@
   .Burger {
     top: 2%;
     right: 10%;
+    
+    div {
+      margin-left: 0 !important;
+    }
 
   }
 }

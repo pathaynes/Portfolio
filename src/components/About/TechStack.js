@@ -3,7 +3,7 @@ import styles from './TechStack.css';
 
 
 const TechStack = () => (
-  <div className={styles.TechStack} data-aos="fade-left">
+  <div className={styles.TechStack}>
     <ul>
       <li className="animated bounceInDown">Tech Stack</li>
       <p>Languages: javascript, html, css, sql</p>

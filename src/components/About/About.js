@@ -13,7 +13,7 @@ const About = () => (
     <div className={styles.About} >
       <div className={styles.HeadShot} data-aos="zoom-in">
         <img src={Pat}></img>
-        <ul className={styles.Social} data-aos="fade-right">
+        <ul className={styles.Social}>
           <li><a href='http://www.linkedin.com/in/pat-haynes/' target='blank'><FontAwesomeIcon icon={faLinkedinIn} /><span>linkedin profile</span></a></li>
           <li><a href='https://github.com/pathaynes' target='blank'><FontAwesomeIcon icon={faGithub} /><span>github profile</span></a></li>
           <li><a href='https://www.instagram.com/pat_haynes_/' target='blank'><FontAwesomeIcon icon={faInstagram} /><span>instagram account</span></a></li>

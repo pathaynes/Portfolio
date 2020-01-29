@@ -1,6 +1,5 @@
 .About {
   display: flex;
-  flex-direction: row;
   
   .HeadShot {
   display: flex;
@@ -24,7 +23,7 @@
     align-items: center;
     height: 10%;
     width: 50%;
-    margin-top: 40px;
+    margin-top: 50px;
     text-decoration: none;
 
      li {
@@ -48,7 +47,7 @@
           width: 120px;
           top: 100%;
           left: 50%;
-          margin-left: -60px;
+          margin-left: -35px;
           text-transform: uppercase;
         }
       }
@@ -139,30 +138,38 @@
     .HeadShot {
       width: 100vw;
       height: 60vh;
+      
 
       img {
         width: 100%;
       }
 
       .Social {
-      width: 90%;
+      width: 90vw;
       padding: 0;
 
       li {
         font-size: 20pt;
+
+        a{
+
+          span {
+            width: 10px;
+          }
+        }
       }
       }
     }
 
     .Stats {
       width: 100vw;
-      height: 100vh;
+      height: 120vh;
 
       .Intro {
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
-        width: 90%;
+        width: 100vw;
         margin-top: 20%;
         
 
@@ -177,3 +184,4 @@
     }
   }
 }
+

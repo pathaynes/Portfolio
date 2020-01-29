@@ -68,7 +68,10 @@
 
 
 @media (max-width: 600px) {
+
   .Menu {
+    margin: none;
+    width: 100%;
 
     .Links {
 

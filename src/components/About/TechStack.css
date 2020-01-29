@@ -1,9 +1,10 @@
 .TechStack {
-  width: 100%;
+  width: 40vw;
   display: flex;
+  bottom: 0;
   flex-direction: column;
-  margin-top: 40px;
-  margin-left: 40px !important;
+  margin-top: 30px;
+  margin-bottom: 30px;
   margin-right: 0;
 
   li {
@@ -13,4 +14,13 @@
     animation-delay: 3.2s;
   }
   
+}
+
+@media (max-width: 600px) {
+
+  .TechStack {
+    width: 100vw;
+    margin-left: 0;
+    position: relative;
+  }
 }
