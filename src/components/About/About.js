@@ -14,11 +14,11 @@ const About = () => (
       <div className={styles.HeadShot} data-aos="zoom-in">
         <img src={Pat}></img>
         <ul className={styles.Social} data-aos="fade-right">
-          <li><a href='http://www.linkedin.com/in/pat-haynes/' target='blank'><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-          <li><a href='https://github.com/pathaynes' target='blank'><FontAwesomeIcon icon={faGithub} /></a></li>
-          <li><a href='https://www.instagram.com/pat_haynes_/' target='blank'><FontAwesomeIcon icon={faInstagram} /></a></li>
-          <li><a href='mailto:pathaynes32@gmail.com' target='blank'><FontAwesomeIcon icon={faEnvelope} /></a></li>
-          <li><a href='https://drive.google.com/file/d/1odQB2uj4L6_D96U9cvZZVHjUDQdZH9Nk/view?usp=sharing' target='blank'><FontAwesomeIcon icon={faFileAlt} /></a></li>
+          <li><a href='http://www.linkedin.com/in/pat-haynes/' target='blank'><FontAwesomeIcon icon={faLinkedinIn} /><span>linkedin profile</span></a></li>
+          <li><a href='https://github.com/pathaynes' target='blank'><FontAwesomeIcon icon={faGithub} /><span>github profile</span></a></li>
+          <li><a href='https://www.instagram.com/pat_haynes_/' target='blank'><FontAwesomeIcon icon={faInstagram} /><span>instagram account</span></a></li>
+          <li><a href='mailto:pathaynes32@gmail.com' target='blank'><FontAwesomeIcon icon={faEnvelope} /><span>contact me!</span></a></li>
+          <li><a href='https://drive.google.com/file/d/1odQB2uj4L6_D96U9cvZZVHjUDQdZH9Nk/view?usp=sharing' target='blank'><FontAwesomeIcon icon={faFileAlt} /><span>resume</span></a></li>
         </ul>
       </div>
       <div className={styles.Stats}>

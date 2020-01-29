@@ -33,11 +33,35 @@
 
       a {
         color: white;
+
+        span {
+          visibility: hidden;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          border-radius: 6px;
+          padding: 5px 0;
+          text-decoration: none;
+          font-size: 8pt;
+          display: flex;
+          justify-content: center;
+          width: 120px;
+          top: 100%;
+          left: 50%;
+          margin-left: -60px;
+          text-transform: uppercase;
+        }
       }
+
        
        a:hover {
-         color: green;
+         color: yellowgreen;
          cursor: pointer;
+       }
+
+       a:hover span {
+        visibility: visible;
+        text-decoration: none;
        }
      }
     
