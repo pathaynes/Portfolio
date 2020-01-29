@@ -17,8 +17,8 @@ const Bio = () => {
       <h1 className="animated flipInX">creating</h1>
       <h1 className="animated flipInX">digital</h1>
       <h1 className="animated flipInX">art.</h1>
-      <h1 className="animated bounceInDown">I</h1>
-      <h1 className="animated bounceInDown">am</h1>
+      <h1 className="animated flipInX">I</h1>
+      <h1 className="animated flipInX">am</h1>
       <h1 className="animated flipInX">here</h1>
       <h1 className="animated flipInX">on</h1>
       <h1 className="animated flipInX">this</h1>
@@ -90,8 +90,8 @@ const Bio = () => {
       <h1 className="animated flipInX">with.</h1>
       <h1 className="animated flipInX">Since</h1>
       <h1 className="animated flipInX">leaving</h1>
-      <h1 className="animated flipInX">aslan</h1>
-      <h1 className="animated flipInX">brewing</h1>
+      <h1 className="animated flipInX">Aslan</h1>
+      <h1 className="animated flipInX">Brewing</h1>
       <h1 className="animated flipInX">company</h1>
       <h1 className="animated flipInX">in</h1>
       <h1 className="animated flipInX">the</h1>
@@ -112,7 +112,7 @@ const Bio = () => {
       <h1 className="animated flipInX">a</h1>
       <h1 className="animated flipInX">portfolio</h1>
       <h1 className="animated flipInX">of</h1>
-      <h1 className="animated flipInX">photography</h1>
+      <h1 className="animated flipInX">photography,</h1>
       <h1 className="animated flipInX">graphic</h1>
       <h1 className="animated flipInX">design</h1>
       <h1 className="animated flipInX">and</h1>

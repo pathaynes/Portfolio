@@ -21,7 +21,7 @@ const About = () => (
         </ul>
       </div>
       <div className={styles.Stats}>
-        <div className={styles.Intro} data-aos="fade-left">
+        <div className={styles.Intro}>
           <div>
             <div className="animated bounceInDown">
               <h1>HI,</h1>
