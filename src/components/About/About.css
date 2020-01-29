@@ -131,6 +131,60 @@
   }
  }
 
+ @media (max-width: 800px) {
+   .About {
+     flex-direction: column-reverse;
+
+     .HeadShot {
+      width: 90vw;
+      height: 60vh;
+      
+
+      img {
+        width: 100%;
+      }
+
+      .Social {
+      width: 90vw;
+      padding: 0;
+
+      li {
+        font-size: 30pt;
+
+        a{
+
+          span {
+            width: 10px;
+          }
+        }
+      }
+      }
+    }
+
+    .Stats {
+      width: 90vw;
+      height: 100vh;
+
+      .Intro {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 100vw;
+        margin-top: 20%;
+        
+
+        div {
+          
+          h1 {
+            font-size: 50pt;
+            color: white;
+          }
+        }
+      }
+    }
+   }
+ }
+
 @media (max-width: 600px) {
   .About {
     flex-direction: column-reverse;
@@ -163,7 +217,7 @@
 
     .Stats {
       width: 100vw;
-      height: 120vh;
+      height: 130vh;
 
       .Intro {
         display: flex;
