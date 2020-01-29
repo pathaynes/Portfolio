@@ -65,4 +65,9 @@
   
 }
 
+@media (max-width: 600px) {
+  .Burger {
+    top: 2%;
 
+  }
+}

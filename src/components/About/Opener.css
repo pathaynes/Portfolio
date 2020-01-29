@@ -537,7 +537,7 @@ flex-wrap: wrap;
   .Opener {
 
     h1 {
-      font-size: 10pt;
+      font-size: 12pt;
     }
 
     h1:nth-child(47),
@@ -545,7 +545,7 @@ flex-wrap: wrap;
     h1:nth-child(94),
     h1:nth-child(114),
     h1:nth-child(115) {
-      font-size: 20pt !important;
+      font-size: 25pt !important;
     }
   }
 }
