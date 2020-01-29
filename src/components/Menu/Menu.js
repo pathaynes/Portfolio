@@ -8,10 +8,10 @@ const Menu = ({ open }) => {
   return (
     <ul className={`${styles.Menu} ${open ? styles.open : styles.closed} `}>
       <div className={styles.Links}>
-        <li><Link to='/about'>Here</Link></li>
-        <li><Link to='/projects'>Then Here</Link></li>
+        <li><Link to='/about'>about</Link></li>
+        <li><Link to='/projects'>work</Link></li>
         {/* <li><Link to='/contact'>how</Link></li> */}
-        <li><Link to='/'>The End</Link></li>
+        <li><Link to='/'>home</Link></li>
       </div>
     </ul>
   );

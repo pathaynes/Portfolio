@@ -1,41 +1,33 @@
 .About {
-  background-color: white;
   display: flex;
   flex-direction: row;
-  position: relative;
-
+  
   .HeadShot {
   display: flex;
   flex-direction: column;
+  margin: 10px;
   align-items: center;
-  position: absolute;
   margin: 0;
   height: 100vh;
   width: 50vw;
-  top: 0;
-  left: 0%;
-  z-index: -1;
 
   img {
     position: relative;
-    top: 10%;
-    width: 100%;
+    top: 15%;
+    width: 80%;
   }
 
   .Social {
-    position: absolute;
-    bottom: 10%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
     height: 10%;
-    width: 90%;
+    width: 50%;
     text-decoration: none;
 
      li {
-      font-size: 40pt;
+      font-size: 30pt;
       list-style-type: none;
 
       a {
@@ -54,16 +46,12 @@
 
  .Stats {
    display: flex;
-   position: absolute;
    flex-direction: row;
    margin: 0;
    height: 100vh;
    width: 50%;
-   top: 0;
-   right: 0;
 
   .Intro {
-    text-align: right;
     margin-top: 15%;
     height: 20%;
     width: 80%;
@@ -119,3 +107,48 @@
   }
  }
 
+@media (max-width: 600px) {
+  .About {
+    flex-direction: column-reverse;
+
+    .HeadShot {
+      width: 100vw;
+      height: 60vh;
+
+      img {
+        width: 100%;
+      }
+
+      .Social {
+      width: 90%;
+      padding: 0;
+
+      li {
+        font-size: 20pt;
+      }
+      }
+    }
+
+    .Stats {
+      width: 100vw;
+      height: 100vh;
+
+      .Intro {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        width: 90%;
+        margin-top: 20%;
+        
+
+        div {
+          
+          h1 {
+            font-size: 50pt;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

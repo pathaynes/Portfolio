@@ -66,3 +66,16 @@
 .closed {
   transform: translateY(-100%);
 }
+
+
+@media (max-width: 600px) {
+  .Menu {
+
+    .Links {
+
+      a {
+        font-size: 8pt;
+      }
+    }
+  }
+}
