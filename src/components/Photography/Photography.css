@@ -1,5 +1,14 @@
 .Photography {
-  
+  margin-top: 30px;
+
+  a {
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: line-through yellowgreen;
+    cursor: pointer;
+  }
 
   .Carousel {
     width: 100%;
@@ -12,6 +21,14 @@
     .Second {
       width: 92%;
       left: 4%;
+
+      a {
+        color: black;
+      }
+
+      p {
+        color: black;
+      }
     }
 
     .Third {
@@ -27,4 +44,26 @@
     }
   }
 
+}
+
+@media (max-width: 600px) {
+  .Photography {
+
+    .Carousel {
+      height: 100vh;
+      .First,
+      .Second,
+      .Third,
+      .Fourth {
+        top: 0;
+        left: 0;
+        width: 100%;
+
+        img {
+          margin-top: 60%;
+          left: 0;
+        }
+      }
+    }
+  }
 }
