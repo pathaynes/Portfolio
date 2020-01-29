@@ -71,8 +71,62 @@ body {
     }
 }
 
+@media (max-width: 1500px) {
+    .Background {
+       
+        .Main {
+           background-size: 80%;
+    
+           .Container {
+               bottom: 40vh;
+    
+               h1 {
+                   font-size: 50pt;
+               }
+           }
+        }
 
-@media (max-width: 600px) {
+    }
+}
+
+@media (max-width: 1000px) {
+    .Background {
+       
+        .Main {
+           background-size: 80%;
+    
+           .Container {
+               bottom: 43vh;
+    
+               h1 {
+                   font-size: 40pt;
+               }
+           }
+        }
+
+    }
+}
+
+@media (max-width: 800px) {
+    .Background {
+       
+        .Main {
+           background-size: 90%;
+    
+           .Container {
+               bottom: 43vh;
+    
+               h1 {
+                   font-size: 30pt;
+               }
+           }
+        }
+
+    }
+}
+
+
+@media (max-width: 500px) {
    .Background {
        
     .Main {

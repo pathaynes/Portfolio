@@ -1,11 +1,13 @@
 .Opener {
-flex-wrap: wrap;
+  flex-wrap: wrap;
 
   h1 {
     font-size: 12pt !important;
     margin-left: 5px;
     margin-bottom: 0px;
     font-family: sans-serif;
+    display: flex;
+    align-items: center;
   }
 
   h1:nth-child(1) {
