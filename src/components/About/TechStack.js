@@ -4,14 +4,16 @@ import styles from './TechStack.css';
 
 const TechStack = () => (
   <div className={styles.TechStack}>
-    <ul>
-      <li className="animated bounceInDown">Tech Stack</li>
-      <p>Languages: javascript, html, css, sql</p>
-      <p>Front-end: react, redux</p>
-      <p>Back-end: node.js, express</p>
-      <p>Databases: firebase, mongodb, mongoose</p>
-      <p>Practices: agile development, ttd, ddd, mob/pair programming, clean code</p>
-      <p>Design: illustrator, photoshop</p>
+    <ul className="animated bounceInDown">
+      <h2>Tech Stack</h2>
+      <div>
+        <li>Languages<span>JavaScript, HTML, CSS, Sql</span></li>
+        <li>Front-end<span>React, Redux</span></li>
+        <li>Back-end<span>Node.js, Express</span></li>
+        <li>Databases<span>Firebase, Mongodb, Mongoose</span></li>
+        <li>Practices<span>Agile Development, Ttd, Ddd, Mob/Pair Programming, Clean Code</span></li>
+        <li>Design<span>Illustrator, Photoshop</span></li>
+      </div>
     </ul>
   </div>
 );
