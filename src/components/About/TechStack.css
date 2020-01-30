@@ -66,5 +66,30 @@
     width: 100vw;
     margin-left: 0;
     position: relative;
+    height: 150vh;
+    
+
+    ul {
+      padding-left: 0px;
+
+      div {
+        flex-direction: column;
+        width: 90vw;
+
+        li {
+          margin-top: 8px;
+          display: flex;
+          
+      
+          span {
+            top: -5px;
+            left: 105%;
+            width: 60vw;
+            margin-left: 0px;
+            margin-right: 0px;
+          }
+        }
+      }
+    }
   }
 }
