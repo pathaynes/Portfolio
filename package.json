@@ -1,4 +1,5 @@
 {
+  "homepage": "https://pathaynes.github.io/Portfolio/",
   "name": "Portfolio",
   "version": "1.0.0",
   "description": "",
@@ -16,6 +17,8 @@
     }
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "jest --verbose",
     "test:watch": "npm run test -- --watch",
     "start": "webpack-dev-server --hot --mode development --devtool eval-source-map",
@@ -57,6 +60,7 @@
     "eslint-plugin-babel": "^5.3.0",
     "eslint-plugin-react": "^7.16.0",
     "file-loader": "^4.2.0",
+    "gh-pages": "^2.2.0",
     "html-webpack-plugin": "^3.2.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.9.0",
