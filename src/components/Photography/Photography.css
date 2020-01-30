@@ -1,64 +1,69 @@
 .Photography {
- max-width: 1000px;
- margin: auto;
- position: relative;
- display: flex;
- flex-direction: column;
+  margin-top: 30px;
 
- .mySlides {
-  
-  .numberText {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
+  a {
+    color: white;
   }
 
-  img {
+  a:hover {
+    text-decoration: line-through yellowgreen;
+    cursor: pointer;
+  }
+
+  .Carousel {
     width: 100%;
+
+    .First {
+      width: 83%;
+      left: 8.5%;
+    }
+
+    .Second {
+      width: 92%;
+      left: 4%;
+
+      a {
+        color: black;
+      }
+
+      p {
+        color: black;
+      }
+    }
+
+    .Third {
+      width: 83%;
+      top: 8.5%;
+      left: 8.5%;
+    }
+
+    .Fourth {
+      width: 84%;
+      top: 8.5%;
+      left: 8%;
+    }
   }
 
-  .text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-  }
- }
-
- .prev {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
- }
- 
- .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  right: 0;
-  border-radius: 3px 0 0 3px;
 }
+
+@media (max-width: 600px) {
+  .Photography {
+
+    .Carousel {
+      height: 100vh;
+      .First,
+      .Second,
+      .Third,
+      .Fourth {
+        top: 0;
+        left: 0;
+        width: 100%;
+
+        img {
+          margin-top: 60%;
+          left: 0;
+        }
+      }
+    }
+  }
 }

@@ -1,0 +1,95 @@
+.TechStack {
+  width: 40vw;
+  display: flex;
+  bottom: 0;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 0;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    animation-delay: 3.2s;
+
+    h2 {
+      color: white;
+      font-size: 40pt;
+    }
+
+    div {
+
+      li {
+        font-family: sans-serif;
+        margin: 15px;
+        color: white;
+        list-style: none;
+
+        span {
+          visibility: hidden;
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          border-radius: 6px;
+          padding: 5px 0;
+          text-decoration: none;
+          font-size: 8pt;
+          display: flex;
+          justify-content: center;
+          width: 120px;
+          top: 100%;
+          left: 50%;
+          margin-left: -35px;
+          text-transform: uppercase;
+        }
+      }
+
+      li:hover {
+        color: yellowgreen;
+         cursor: pointer;
+      }
+
+      li:hover span {
+        visibility: visible;
+      }
+    }
+  }
+
+  
+}
+
+@media (max-width: 600px) {
+
+  .TechStack {
+    width: 100vw;
+    margin-left: 0;
+    position: relative;
+    height: 150vh;
+    
+
+    ul {
+      padding-left: 0px;
+
+      div {
+        flex-direction: column;
+        width: 90vw;
+
+        li {
+          margin-top: 8px;
+          display: flex;
+          
+      
+          span {
+            top: -5px;
+            left: 105%;
+            width: 60vw;
+            margin-left: 0px;
+            margin-right: 0px;
+          }
+        }
+      }
+    }
+  }
+}

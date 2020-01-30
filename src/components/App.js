@@ -28,7 +28,7 @@ export default function App() {
       <Switch>
         <Route exact path="/" component={Main} />
         <Route path="/about" component={About} />
-        <Route path="/photography" component={Photography} />
+        <Route path="/projects" component={Photography} />
         <Route path="/contact" component={Contact} />
       </Switch>
     </Router>

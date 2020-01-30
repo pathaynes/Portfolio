@@ -36,6 +36,10 @@
     
   }
 
+  a:active {
+    color: yellowgreen;
+  }
+
   li {
     list-style: none;
     margin: 0px;
@@ -60,4 +64,20 @@
 
 .closed {
   transform: translateY(-100%);
+}
+
+
+@media (max-width: 600px) {
+
+  .Menu {
+    margin: none;
+    width: 100%;
+
+    .Links {
+
+      a {
+        font-size: 8pt;
+      }
+    }
+  }
 }
