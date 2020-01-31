@@ -68,7 +68,6 @@
     position: relative;
     height: 150vh;
     
-
     ul {
       padding-left: 0px;
 
@@ -80,7 +79,6 @@
           margin-top: 8px;
           display: flex;
           
-      
           span {
             top: -5px;
             left: 105%;
