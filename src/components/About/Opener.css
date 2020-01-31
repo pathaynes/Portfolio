@@ -1,5 +1,6 @@
 .Opener {
   flex-wrap: wrap;
+  width: 80%;
 
   h1 {
     font-size: 12pt !important;
