@@ -180,7 +180,10 @@
 
     .HeadShot {
       width: 100vw;
-      height: 60vh;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
       
 
       img {
@@ -188,11 +191,11 @@
       }
 
       .Social {
-      width: 90vw;
+      width: 80vw;
       padding: 0;
 
       li {
-        font-size: 20pt;
+        font-size: 15pt;
 
         a{
 
@@ -209,7 +212,7 @@
 
     .Stats {
       width: 100vw;
-      height: 130vh;
+      height: 150vh;
       display: flex;
       justify-content: flex-start;
       flex-direction: column;
