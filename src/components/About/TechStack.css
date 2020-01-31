@@ -73,6 +73,7 @@
   .TechStack {
     width: 100vw;
     margin-left: 0;
+    margin-top: 20px;
     height: 150vh;
     
     ul {
