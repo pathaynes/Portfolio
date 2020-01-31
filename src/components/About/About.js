@@ -22,21 +22,19 @@ const About = () => (
         </ul>
       </div>
       <div className={styles.Stats}>
-        <div className={styles.Intro}>
-          <div>
-            <div className="animated bounceInDown">
-              <h1>HI,</h1>
-            </div>
-            <div className="animated bounceInDown">
-              <h1>Im</h1>
-            </div>
-            <div className="animated bounceInDown">
-              <h1>PAT</h1>
-            </div>
+        <div>
+          <div className="animated bounceInDown">
+            <h1>HI,</h1>
           </div>
-          <Bio />
-          <TechStack />
+          <div className="animated bounceInDown">
+            <h1>Im</h1>
+          </div>
+          <div className="animated bounceInDown">
+            <h1>PAT</h1>
+          </div>
         </div>
+        <Bio />
+        <TechStack />
       </div>
     </div>
   </>

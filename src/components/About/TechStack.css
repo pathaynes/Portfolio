@@ -1,11 +1,12 @@
 .TechStack {
-  width: 40vw;
+  width: 50vw;
   display: flex;
   bottom: 0;
   flex-direction: column;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 30px;
   margin-right: 0;
+  margin-left: 0;
 
   ul {
     display: flex;
@@ -22,6 +23,11 @@
     div {
 
       li {
+        background-color: black;
+        border-radius: 6px;
+        width: 100px;
+        height: 25px;
+        text-align: center;
         font-family: sans-serif;
         margin: 15px;
         color: white;
@@ -39,9 +45,10 @@
           display: flex;
           justify-content: center;
           width: 120px;
+          margin-top: 1px;
           top: 100%;
           left: 50%;
-          margin-left: -35px;
+          margin-left: -10px;
           text-transform: uppercase;
         }
       }
@@ -65,7 +72,6 @@
   .TechStack {
     width: 100vw;
     margin-left: 0;
-    position: relative;
     height: 150vh;
     
     ul {
@@ -78,11 +84,12 @@
         li {
           margin-top: 8px;
           display: flex;
+          width: 80vw;
           
           span {
             top: -5px;
-            left: 105%;
-            width: 60vw;
+            left: 115%;
+            width: 90vw;
             margin-left: 0px;
             margin-right: 0px;
           }
