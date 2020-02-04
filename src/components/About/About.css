@@ -144,13 +144,6 @@
 
       li {
         font-size: 30pt;
-
-        a{
-
-          span {
-            
-          }
-        }
       }
       }
     }
@@ -180,7 +173,7 @@
 
     .HeadShot {
       width: 100vw;
-      height: 50vh;
+      height: 70vh;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -188,6 +181,7 @@
 
       img {
         width: 100%;
+        margin-top: 20px;
       }
 
       .Social {
@@ -221,12 +215,35 @@
         div {
           margin-bottom: 20px;
           margin-top: 20px;
+          margin-left: 0px;
 
           h1 {
             font-size: 50pt;
             color: white;
           }
+
+          div:nth-child(2) {
+            margin-left: 20px;
+          }
+
+          div:nth-child(3) {
+            margin-left: 20px;
+          }
         }
+
+        div:nth-child(2) {
+          margin-left: 0px;
+        }
+
+        div:nth-child(3) {
+          margin-left: 0px;
+
+          ul {
+            margin-top: 10px;
+          }
+          
+        } 
+
       }
     }
   }
