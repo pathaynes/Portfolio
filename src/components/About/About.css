@@ -170,6 +170,7 @@
 @media (max-width: 600px) {
   .About {
     flex-direction: column-reverse;
+    align-items: space-between;
 
     .HeadShot {
       width: 100vw;
@@ -213,8 +214,8 @@
       margin-top: 20%;
 
         div {
-          margin-bottom: 20px;
-          margin-top: 20px;
+          margin-bottom: 10px;
+          margin-top: 10px;
           margin-left: 0px;
 
           h1 {
