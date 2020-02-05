@@ -152,7 +152,7 @@
       width: 90vw;
       height: 100vh;
       display: flex;
-      justify-content: flex-start;
+      justify-content: space-between;
       flex-direction: column;
       margin-top: 20%;
         
@@ -170,6 +170,7 @@
 @media (max-width: 600px) {
   .About {
     flex-direction: column-reverse;
+    align-items: space-between;
 
     .HeadShot {
       width: 100vw;
@@ -208,13 +209,13 @@
       width: 100vw;
       height: 150vh;
       display: flex;
-      justify-content: flex-start;
+      justify-content: space-between;
       flex-direction: column;
       margin-top: 20%;
 
         div {
-          margin-bottom: 20px;
-          margin-top: 20px;
+          margin-bottom: 10px;
+          margin-top: 10px;
           margin-left: 0px;
 
           h1 {
