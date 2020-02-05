@@ -152,7 +152,7 @@
       width: 90vw;
       height: 100vh;
       display: flex;
-      justify-content: flex-start;
+      justify-content: space-between;
       flex-direction: column;
       margin-top: 20%;
         
@@ -209,7 +209,7 @@
       width: 100vw;
       height: 150vh;
       display: flex;
-      justify-content: flex-start;
+      justify-content: space-between;
       flex-direction: column;
       margin-top: 20%;
 
